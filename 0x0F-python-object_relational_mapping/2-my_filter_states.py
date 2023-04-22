@@ -17,7 +17,3 @@ if __name__ == "__main__":
                  FROM `states` \
                 WHERE BINARY `name` = '{}'".format(sys.argv[4]))
     [print(state) for state in c.fetchall()]
-    
-"""
-Code upated on 22nd April, 2023 by Bernard Bapanaye
-"""
